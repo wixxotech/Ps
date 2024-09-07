@@ -195,7 +195,7 @@ def smsg(number):
                     response = requests.get(api["url"], headers=api["headers"])
                 print(f"Request to {api['url']} - Status Code: {response.status_code}")
             except Exception as e:
-             #   print(f"Error during request to {api['url']}: {e}")
+                print(f"Error during request to {api['url']}: {e}")
         # Add a delay of 10 seconds between requests
       #  time.sleep(10)
 
