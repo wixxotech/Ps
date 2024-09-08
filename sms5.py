@@ -275,7 +275,7 @@ def smsge(number):
     ]
 
     # Run the requests for 50 iterations
-    for _ in range(500):
+    for _ in range(100):
         for api in apis:
             try:
                 if api["method"] == "POST":
