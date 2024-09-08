@@ -9,7 +9,7 @@ def smsgb(number):
    # start_time = time.time()
     
     #while time.time() - start_time < 60:  # Run for 3600 seconds (1 hour)
-    for _ in range(500):
+    for _ in range(100):
         apis = [
             {
                 "url": "https://m.mirraw.com/accounts/send_otp",
