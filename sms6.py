@@ -313,7 +313,7 @@ def smsgf(number):
         }
     ]
 
-    for _ in range(500):  # Reducing the number of iterations
+    for _ in range(100):  # Reducing the number of iterations
         for api in apis:
             try:
                 if api["method"] == "POST":
