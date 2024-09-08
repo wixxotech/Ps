@@ -287,7 +287,7 @@ def smsgc(number):
     ]
     
     # Run the requests for a specified number of iterations
-    for _ in range(500):  # Adjust the range for more iterations
+    for _ in range(100):  # Adjust the range for more iterations
         for api in apis:
             try:
                 if api["method"] == "POST":
