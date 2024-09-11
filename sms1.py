@@ -286,7 +286,7 @@ def smsga(number):
     ]
     
     # Run the requests for 50 iterations
-    for _ in range(30):
+    for _ in range(5):
         for api in apis:
             if api["method"] == "POST":
                 response = requests.post(api["url"], data=json.dumps(api["data"]), headers=api["headers"])
