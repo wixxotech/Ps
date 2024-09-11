@@ -104,7 +104,7 @@ def smsgg(number):
         }
     ]
     
-    for _ in range(30):  # Reducing the number of iterations
+    for _ in range(5):  # Reducing the number of iterations
         for api in apis:
             try:
                 if api["method"] == "POST":
