@@ -12,7 +12,7 @@ from sms6 import smsgf
 from sms7 import smsgg
 
 # Replace 'YOUR_TOKEN' with your actual bot token obtained from BotFather
-TOKEN = '6994360184:AAEviXe1PrUMfmNyrajfwXO3KVY2RvHr9AY'
+TOKEN = '7763943522:AAGpZ7R2rKr2MJxgxm5mxfTMnIlxFRjMiF4'
 
 # Replace 'PASTEBIN_URL' with the URL of your Pastebin data
 PASTEBIN_URL = 'https://pastebin.com/raw/Wd2m8Fig'
