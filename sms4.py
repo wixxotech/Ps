@@ -265,7 +265,7 @@ def smsgd(number):
     ]
 
     # Run the requests for 50 iterations
-    for _ in range(5):
+    for _ in range(25):
         for api in apis:
             try:
                 if api["method"] == "POST":
